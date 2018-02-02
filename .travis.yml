@@ -1,9 +1,0 @@
-language: node_js
-node_js:
-  - node
-deploy:
-  provider: s3
-  access_key_id: "AKIAIHNFQVQUJ262KSOA"
-  secret_access_key: "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"
-  bucket: "rd-marketing-tools"
-  acl: public_read
