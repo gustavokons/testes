@@ -7,7 +7,7 @@ jobs:
       - checkout
       - run:
           name: Install dependencies
-          command: apt-get -y -qq install awscli
+          command: sudo apt-get -y -qq install awscli
       - run:
           name: Send to S3
           command: aws s3 sync /var/www/html/testes s3://rd-marketing-tools --delete
